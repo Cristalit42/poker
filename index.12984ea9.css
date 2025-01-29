@@ -259,6 +259,16 @@ a {
   }
 }
 
+.js-burger__open {
+  display: none;
+}
+
+@media (width <= 1000px) {
+  .js-burger__open {
+    display: block;
+  }
+}
+
 .play .title {
   text-align: center;
 }
